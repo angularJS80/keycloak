@@ -1,4 +1,4 @@
-#Keycloak.도입 배경 
+# Keycloak.도입 배경 
 ###    1.https://spring.io/blog/2019/11/14/spring-security-oauth-2-0-roadmap-update
 ###    2.스프링 블로그에서 인증서버 지원 중단으로 인증관련 다른 방법을 고민하기 시작
 ###    3.이후 다시 먼가 계획 하는부분은 계속적 모니터링 필요 
@@ -7,14 +7,14 @@
 ###    6.알아보니 okta(aks) , google oAuth2.0 , Keycloak(redhat opensource) 정도로 추려졌다.
 ###    7.이후 Keycloak 을 spring boot 기반으로 임베디드하게 사용가능하여 추후 확장 및 이관을 고려하여 keycloak 를 사용하기로 결정
  
-#Keycloak 설치 
+# Keycloak 설치 
 
 ###    1.spring boot embedded keycloak 검색
 ###    2.소스코드 받기 https://github.com/Baeldung/spring-security-oauth
 ###    3.oauth-rest/oauth-authorization-server ( keycloak 내장 시킨 spring boot 기반의 인증서버)
 ###    4.oauth-resource-server( keycloak의 인가를 받아서 동작되는 리소스서버) 
 ###    5.oauth-ui-authorization-code-angular 리소스서버에 접근하는 client 어플
-#실행
+# 실행
 ###    1.Spring boot 기반은 pom.xml 확인시 Java 버전이 13으로되어있으며, 사용하는 버전으로 변경하고 빌드 1.8로 변경했지만 문제가 없음, 어플리케이션 실행시 jpa 기반으로 스키마 자동 생성 , oauth-rest/oauth-authorization-server/src/main/resources/application.yml username password,port변경
 ###    2.Angular 기반은 src/main/resources/src 까지 접근하여 nom install 
 ###    3.Keycloak 인증서버 접근 및 설정
