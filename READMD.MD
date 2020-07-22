@@ -1,4 +1,4 @@
-# Keycloak.도입 배경 
+# Keycloak 사용 배경 
 ###    1.https://spring.io/blog/2019/11/14/spring-security-oauth-2-0-roadmap-update
 ###    2.스프링 블로그에서 인증서버 지원 중단으로 인증관련 다른 방법을 고민하기 시작
 ###    3.이후 다시 먼가 계획 하는부분은 계속적 모니터링 필요 
